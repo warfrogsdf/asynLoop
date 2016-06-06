@@ -8,7 +8,6 @@ var emitter = new EventEmitter();
  * @returns {{start: 'start', state: {allLoopNum: *, execLoopNum: number}}}
  */
 module.exports = function (array, iterator, callback) {
-
     var state = {
         'allLoopNum': array.length,
         'execLoopNum': 0
@@ -22,7 +21,7 @@ module.exports = function (array, iterator, callback) {
             state.execLoopNum = state.allLoopNum;
 
             //execute fulfil callback
-            callback && callback.apply();
+            callback && callback();
         }else{
             iterator && iterator(index, array[index], function continueCallback(){
                 //update state
