@@ -32,7 +32,7 @@ AsynLoop(fileArr, iterator, callback).start();
 
 ## Credits
 
-  - [Bean Li](http://github.com/xinghuodesdf)
+  - [Bean Li](https://github.com/warfrogsdf)
 
 ## License
 
