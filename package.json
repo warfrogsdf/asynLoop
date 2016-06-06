@@ -1,0 +1,39 @@
+{
+  "name": "asynLoop",
+  "version": "0.0.1",
+  "description": "asynchronous loop Solution",
+  "keywords": [
+    "util",
+    "asyn",
+    "loop"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warfrogsdf/asynLoop.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/utils-merge/issues"
+  },
+  "author": {
+    "name": "Bean Li",
+    "email": "libing.ls@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+  },
+  "testling": {
+  }
+}
