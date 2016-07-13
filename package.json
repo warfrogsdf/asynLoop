@@ -21,7 +21,7 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "main": "./index",
+  "main": "./index.js",
   "dependencies": {},
   "devDependencies": {},
   "engines": {
