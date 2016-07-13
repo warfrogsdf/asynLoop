@@ -1,5 +1,5 @@
 {
-  "name": "asynLoop",
+  "name": "asynloop",
   "version": "0.0.1",
   "description": "asynchronous loop Solution",
   "keywords": [
@@ -9,15 +9,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/warfrogsdf/asynLoop.git"
+    "url": "git+https://github.com/warfrogsdf/asynLoop.git"
   },
   "bugs": {
     "url": "http://github.com/jaredhanson/utils-merge/issues"
   },
-  "author": {
-    "name": "Bean Li",
-    "email": "libing.ls@gmail.com"
-  },
+  "author": "Bean Li <libing.ls@gmail.com>",
   "licenses": [
     {
       "type": "MIT",
@@ -25,11 +22,17 @@
     }
   ],
   "main": "./index",
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "engines": {
     "node": ">= 0.4.0"
-  }
+  },
+  "homepage": "https://github.com/warfrogsdf/asynLoop#readme",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
