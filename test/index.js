@@ -11,6 +11,7 @@ var iterator = function (index, item, continueCallback, quitCallback) {
             quitCallback && quitCallback();
         }else{
             console.log('execute loop ' + index + ';');
+            console.log('    file'+ index +' content is ' + data + ';');
             continueCallback && continueCallback();
         }
     });
